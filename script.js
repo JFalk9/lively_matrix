@@ -6,7 +6,7 @@ var root = {
     },
     rainbowSpeed: 0.5,
     rainbow: true,
-    matrixspeed: 50
+    matrixspeed: 5
 };
 
 var c = document.getElementById("c");
@@ -20,7 +20,7 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 // the characters
-var konkani  = "゠アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレワヰヱヲンヺ・ーヽヿ0123456789"
+var konkani  = "゠0123456789"
 // converting the string into an array of single characters
 var characters = konkani.split("");
 var font_size = 14;
